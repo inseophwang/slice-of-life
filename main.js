@@ -36,7 +36,11 @@ console.log(`### Challenge #3`);
 // first `e` replaced with an `i` and the `o` replaced with `y`. Hint: one way
 // to do this involves repeating the same operation twice, though with
 // different arguments.
-console.log(sentence.replace('e','i'))
+
+const newSentence = sentence.replace('e','i');
+const newestSentence = newSentence.replace('o','y');
+
+console.log(newestSentence);
 
 console.log(`### Challenge #4`);
 
