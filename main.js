@@ -79,3 +79,4 @@ console.log(`### Challenge #8`);
 // but they should both be created using `slice` with the _exact_ same
 // argument(s).
 
+console.log(sentence.slice(-4), speedSentence.slice(-4));
