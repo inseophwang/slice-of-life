@@ -36,14 +36,16 @@ console.log(`### Challenge #3`);
 // first `e` replaced with an `i` and the `o` replaced with `y`. Hint: one way
 // to do this involves repeating the same operation twice, though with
 // different arguments.
-
+console.log(sentence.replace('e','i'))
 
 console.log(`### Challenge #4`);
 
 // For the string `Hello, there.`, console out the same string but with _every_
 // `e` replaced by an `o`. If you got this far, you are thoro af.
 
-
+const oString = /e/gi;
+const newString = sentence.replace(oString,'o');
+console.log(newString);
 
 console.log(`# Slice Challenges`);
 
