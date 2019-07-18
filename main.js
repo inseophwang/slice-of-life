@@ -63,7 +63,7 @@ console.log(`### Challenge #6`);
 
 // For the string `Watch that speedbump!`, console out the first 6 characters.
 
-
+console.log(speedSentence.slice(0, 6));
 
 console.log(`### Challenge #7`);
 
