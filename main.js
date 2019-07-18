@@ -28,7 +28,7 @@ console.log('### Challenge #2');
 // For the string `Hello, there.`, console out the same string but with the
 // `there` replaced with `you`.
 
-
+console.log(sentence.replace('there', 'you'));
 
 console.log(`### Challenge #3`);
 
