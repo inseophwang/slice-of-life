@@ -70,7 +70,7 @@ console.log(`### Challenge #7`);
 // For the string `Watch that speedbump!`, console out everything _except for_ the last 4
 // characters.
 
-
+console.log(speedSentence.slice(0,-4));
 
 console.log(`### Challenge #8`);
 
