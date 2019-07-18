@@ -53,6 +53,10 @@ console.log(`### Challenge #5`);
 
 // For the string `Watch that speedbump!`, console out the first 5 characters.
 
+const speedSentence = `Watch that speedbump!`;
+
+console.log(speedSentence.slice(0 , 5));
+
 
 
 console.log(`### Challenge #6`);
